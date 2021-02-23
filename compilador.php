@@ -16,12 +16,16 @@
         <a href="compilador.php">Ejemplo de Código Java</a>
         <!-- This is an Index-->
     </nav>
-    <textarea id="alltext">Texto</textarea>
-    <input type="submit" name="submit" value="Descargar"></input>
+    <form action="fuctioncalling" method="post">
+        <textarea id="alltext" name="text">Texto</textarea>
+        <input type="submit" name="submit" value="Descargar"></input>
+    </form>
     <?php
     if (isset($_POST["submit"])) :
-        $file = fopen("archivo.java", "wrx");
+        $file = fopen("../archivo.java", "w");
         echo "Abrió el acrivo";
+        fwrite($file, "hola");
+        echo "Escribió en el archivo";
         fclose($file);
         echo "Cerró el archivo";
     endif;
