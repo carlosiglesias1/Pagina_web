@@ -1,0 +1,16 @@
+p a{
+	font-weight: bolder;
+	font-color: black;
+	text-decoration: none;
+}
+img{
+	width: 42.5em;
+	height: 25em;
+	float: right;
+}
+p{
+	font-size:1.25em;
+	font-family: arial;
+	background: grey;
+	color: white;
+}

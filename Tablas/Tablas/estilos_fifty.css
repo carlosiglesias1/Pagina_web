@@ -1,0 +1,18 @@
+p {
+    font-family: Arial;
+}
+.destacar{
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: large;
+}
+.destacar1{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+p a{
+    font-size: large;
+}
+#the_album img{
+    float: left ;
+}

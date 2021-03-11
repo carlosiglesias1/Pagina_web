@@ -1,0 +1,21 @@
+table{
+	width: 100%;
+	height: 2em;
+	border: solid;
+}
+table th{
+	width: 2em;
+	border-collapse: collapse;
+}
+table td img{
+	width: 7em;
+}
+table td{
+	text-align: center;
+	font-family: calibri;
+	font-size: 1.5em;
+	border-collapse: collapse;
+}
+#romeo_santos{
+	color:green;
+}
