@@ -1,17 +1,44 @@
 body {
     background-color: beige;
+    display: flex;
+    flex-direction: column;
 }
 
-body .description{
+body .description {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     color: orangered;
 }
 
-nav .nav_link{
+nav {
+    background-color: aquamarine;
+    list-style-type: none;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li{
+    justify-content: space-between;
+}
+
+nav .nav_link {
+    display: block;
+    padding: 1em;
+    width: 6em;
+    height: 0.5em;
+    background-color: darkblue;
+    background-size: contain;
+    color: white;
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: block;
+    border-radius: 5%;
 }
 
 footer {
@@ -32,7 +59,7 @@ footer .ft_icon {
     font-weight: bolder;
 }
 
-body .contenedor{
+body .contenedor {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -45,10 +72,10 @@ h1 {
     text-align: center;
 }
 
-body .inframe{
+body .inframe {
     list-style: none;
 }
 
-body iframe{
+body iframe {
     border-radius: 5%;
 }
