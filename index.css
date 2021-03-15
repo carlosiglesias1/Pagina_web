@@ -2,9 +2,11 @@ body {
     background-color: beige;
     display: flex;
     flex-direction: column;
+    margin: 0%;
+    padding: 0;
 }
 
-body .description {
+.description {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     color: orangered;
@@ -13,25 +15,23 @@ body .description {
 nav {
     background-color: aquamarine;
     list-style-type: none;
+    height: 100vh;
+    width: 10%;
 }
 
-nav ul{
+ul{
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
-nav ul li{
-    justify-content: space-between;
-}
-
-nav .nav_link {
-    display: block;
+.nav_link {
     padding: 1em;
+    margin: 0 auto;
+    margin-top: 5em;
     width: 6em;
-    height: 0.5em;
     background-color: darkblue;
     background-size: contain;
     color: white;
@@ -48,7 +48,7 @@ footer {
     text-align: center;
 }
 
-footer .ft_icon {
+.ft_icon {
     widows: 40px;
     height: 40px;
 }
@@ -59,10 +59,13 @@ footer .ft_icon {
     font-weight: bolder;
 }
 
-body .contenedor {
+.contenedor {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+}
+
+.columna{
+    flex-direction: column;   
 }
 
 h1 {
@@ -72,10 +75,18 @@ h1 {
     text-align: center;
 }
 
-body .inframe {
+.inframe {
     list-style: none;
+    margin: 250px;
+    margin-top: auto;
+    float: right;
+    width: 300px;
 }
 
-body iframe {
+.inframe p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+iframe {
     border-radius: 5%;
 }
