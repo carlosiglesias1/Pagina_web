@@ -1,5 +1,17 @@
 body {
-    background-color: gray;
+    background-color: beige;
+}
+
+body .description{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: orangered;
+}
+
+nav .nav_link{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
 }
 
 footer {
@@ -20,13 +32,23 @@ footer .ft_icon {
     font-weight: bolder;
 }
 
+body .contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    color: whitesmoke;
+    color: darkblue;
     text-decoration: underline;
     text-align: center;
 }
 
-iframe {
-    border-radius: 15px;
+body .inframe{
+    list-style: none;
+}
+
+body iframe{
+    border-radius: 5%;
 }

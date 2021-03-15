@@ -1,0 +1,22 @@
+#griega{
+	list-style-type: lower-greek;
+}
+#periodicos li a{
+		text-decoration: none;
+		color: black;
+}
+.desordenada{
+	list-style:none; 
+	color: blue;
+	text-decoration: underline;
+	text-decoration: italic;
+}
+.desordenada li::before {
+  content: "\2022";
+  color: red;
+  display: inline-block; 
+}
+#desordenada1 .desordenada{
+	background: darkgrey;
+	display: inline-block;
+}
