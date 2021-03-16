@@ -43,19 +43,25 @@ table{
 	height: 2em;
 	border: solid;
 }
+table caption{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-weight: bold;
+}
 table th{
 	width: 2em;
 	border-collapse: collapse;
-}
-table td img{
-	width: 7em;
 }
 table td{
 	text-align: center;
 	font-family: calibri;
 	font-size: 1.5em;
 	border-collapse: collapse;
+	border-spacing: 0;
 }
+table td img{
+	width: 7em;
+}
+
 #romeo_santos{
 	color:green;
 }

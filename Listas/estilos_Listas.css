@@ -1,22 +1,91 @@
-#griega{
+body {
+	display: flex;
+	flex-direction: row;
+	margin: 0%;
+}
+
+.contenedor {
+	display: flex;
+	flex-direction: row;
+}
+
+nav {
+	background-color: aquamarine;
+	list-style-type: none;
+	height: 100vh;
+	width: 120%;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.nav_link {
+	padding: 1em;
+	margin: 0 auto;
+	margin-top: 5em;
+	width: 6em;
+	background-color: darkblue;
+	background-size: contain;
+	color: white;
+	text-decoration: none;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	display: block;
+	border-radius: 5%;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+#griega {
 	list-style-type: lower-greek;
 }
-#periodicos li a{
-		text-decoration: none;
-		color: black;
+
+#periodicos li a {
+	text-decoration: none;
+	color: black;
+	margin: 0%;
 }
-.desordenada{
-	list-style:none; 
+
+.desordenada {
+	list-style: none;
 	color: blue;
 	text-decoration: underline;
 	text-decoration: italic;
 }
+
 .desordenada li::before {
-  content: "\2022";
-  color: red;
-  display: inline-block; 
+	content: "\2022";
+	color: red;
+	display: inline-block;
 }
-#desordenada1 .desordenada{
+
+#desordenada1 .desordenada {
 	background: darkgrey;
 	display: inline-block;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	margin: 0%;
+	text-align: center;
+	width: 100%;
+}
+
+.ft_icon {
+	widows: 40px;
+	height: 40px;
+}
+
+.ft_text {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: small;
+	font-weight: bolder;
 }
